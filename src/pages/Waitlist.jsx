@@ -84,7 +84,6 @@ function Waitlist() {
     const { error } = await supabase
       .from('waitlist')
       .insert([payload])
-      .select('id')
 
     if (error) {
       setStatus('idle')
