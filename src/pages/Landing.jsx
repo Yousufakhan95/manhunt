@@ -37,7 +37,7 @@ function Landing() {
           animate="visible"
           custom={1}
         >
-          <span className="highlight">100+</span> Player
+          <span className="highlight">&lt;50</span> Player
           <br />
           Tech-Induced Manhunt
         </motion.h1>
@@ -53,6 +53,17 @@ function Landing() {
           <br className="desktop-break" />
           Phones. Live zones. Real-time hints. One campus. No hiding.
         </motion.p>
+
+        <motion.div
+          className="disclaimer-badge"
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          custom={2.5}
+        >
+          Not a formally organized event &mdash; still in the planning stage. We're
+          gauging interest to see if we actually host this.
+        </motion.div>
 
         <motion.div
           className="info-cards"

@@ -29,7 +29,21 @@
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+}
+
+.disclaimer-badge {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 12px;
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #b91c1c;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 480px;
+  margin-bottom: 24px;
 }
 
 .hero-title {
